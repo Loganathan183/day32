@@ -1,15 +1,23 @@
 .header {
-    background-color: blue;
+    background-color: whitesmoke;
+}
+h1 {
+    background-color: black;
+    color: white;
+width: 100%;
+border : 100%;
+}
+span{
+    color: white;
+margin-left: 81%;
+font-size:xx-large;
+position: absolute;
+left: 20px;
+top: -55px;
 }
 
-.navbar h1{
-    color:white;
-    font-weight: bold;
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
+
+
 
 
