@@ -1,7 +1,7 @@
 // src/components/Cart.js
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addItem, removeItem, setItems } from '../redux/cartSlice';
+import { addItem, removeItem, setItems } from '../redux/cartslice';
 
 const Cart = ({ jsonData }) => {
   const dispatch = useDispatch();
