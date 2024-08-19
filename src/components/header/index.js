@@ -8,9 +8,9 @@ export default function Header() {
     return (
         <div classname={styles.header}>
          <Container>
-                <div style={{color: "red",background_color: "white"}}>
+                <div classname={styles.navbar}>
                     <h1>hii</h1>
-                    <Link to="cart" style={styles.cartIcon}>
+                    <Link to="/cart" style={styles.carticon}>
                         <FaCartArrowDown />
                         <span>1</span>
                     </Link>

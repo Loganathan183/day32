@@ -1,14 +1,15 @@
-.header{
+.header {
     background-color: blue;
+}
+
+.navbar h1{
+    color:white;
+    font-weight: bold;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.cartIcon{
-    color:white;
-    font-size: 32px;
-    display: grid;
 
-}
+
