@@ -1,0 +1,14 @@
+.header{
+    background-color: blue;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartIcon{
+    color:white;
+    font-size: 32px;
+    display: grid;
+
+}
